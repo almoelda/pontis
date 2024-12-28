@@ -3,8 +3,6 @@ kind: CustomResourceDefinition
 metadata:
   name: examples.example.io
 spec:
-  # This will cause a violation in newer Kubernetes versions
-  preserveUnknownFields: true  
   group: example.io
   names:
     kind: Example
